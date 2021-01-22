@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "target": "es2017",
+    "isolatedModules": true,
+    "declaration": false,
+    "inlineSourceMap": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "allowJs": false,
+    "watch": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/*"
+  ],
+  "exclude": [
+    "node_modules", "**/*.spec.ts"
+  ]
+}

@@ -17,7 +17,7 @@ $ vercel
   - http://YOUR-VERCEL-APP-ID.vercel.app
   - Example: https://vercel-express-3.ngduc.vercel.app
 
-### [app/index.js](./app/index.js)
+### [app/index.js](src/index.js)
 
 - If you're using Typescript, build your source directory, output to "app"
 - Update package.json: "main": "app/index.js"

@@ -15,7 +15,7 @@
   },
   "compileOnSave": true,
   "include": [
-    "app/*"
+    "src/*"
   ],
   "exclude": [
     "node_modules", "**/*.spec.ts"

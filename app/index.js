@@ -6,15 +6,15 @@ const port = 4000;
 let routes = null;
 
 app.get('/', (req, res) => {
-    return res.type('json').send(JSON.stringify(routes.getChildEndpoints(req.route.path), null, 2));
+    return res.json(routes.getChildEndpoints(req.route.path));
 });
 
 app.get('/projects', (req, res) => {
-    return res.type('json').send(JSON.stringify(routes.getChildEndpoints(req.route.path), null, 2));
+    return res.json(routes.getChildEndpoints(req.route.path));
 });
 
 app.get('/projects/:name', (req, res) => {
-    return res.type('json').send(JSON.stringify(routes.getChildEndpoints(req.route.path), null, 2));
+    return res.json(routes.getChildEndpoints(req.route.path));
 });
 
 app.listen(port, () => {

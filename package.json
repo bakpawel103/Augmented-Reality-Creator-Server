@@ -4,9 +4,9 @@
   "description": "",
   "author": "Duc Ng",
   "homepage": "https://github.com/ngduc/vercel-express",
-  "main": "src/index.js",
+  "main": "app/index.js",
   "scripts": {
-    "start": "node src/index",
+    "start": "node app/index",
     "dev": "nodemon"
   },
   "license": "MIT",
